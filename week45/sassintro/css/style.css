@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+s body {
+  background-color: #626262;
+}
+
+header {
+  background-color: #088e83;
+  color: #626262;
+}
+header nav {
+  background-color: #6632ab;
+  color: #626262;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: flex;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #626262;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.4s ease-in-out;
+}
+header nav ul li a:hover {
+  color: #088e83;
+}
+
+.btn {
+  background-color: #5cb85c;
+  color: #d9534f;
+  padding: 10px 20px;
+  border: none;
+}
+.btn:hover {
+  background-color: #449d44;
+}
+
+.btn2 {
+  background-color: #626262;
+  color: #088e83;
+  padding: 10px 20px;
+  border: none;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

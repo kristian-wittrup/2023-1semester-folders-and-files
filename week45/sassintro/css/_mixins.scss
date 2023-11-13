@@ -1,0 +1,13 @@
+@mixin button-style {
+  background-color: $success;
+  color:$danger;
+  padding: 10px 20px;
+  border: none; // add color later
+}
+
+@mixin button-style-two($color, $color2) {
+  background-color: $color;
+  color:$color2;
+  padding: 10px 20px;
+  border: none; // add color later
+}

@@ -1,0 +1,66 @@
+body {
+  background-color: #666666; 
+  margin:0;
+  font-family: Arial;
+}
+
+.pa-10 {
+  padding: 10px;
+}
+
+header {
+  background-color:#ededed;
+  display: flex; /* Styre layout. Fra verticalt til Horizontalt  */
+  align-items: center;
+}
+
+.logo {
+  background-color: #444444;
+  flex-grow:2;
+}
+
+nav {
+  background-color: #777777;
+  flex-grow:8;
+}
+
+.social-links {
+  background-color:#aaaaaa;
+  flex-grow:2;
+
+}
+
+ul {
+  display: flex;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:#ededed;
+  margin:0;
+  padding:0;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding:0 10px;
+  transition:0.5s;
+ 
+  
+}
+
+li:hover {
+  color: #23c08b;
+  text-shadow: 1px 1px 3px #444444;
+}
+
+
+.hero {
+  height:100vh;
+  background-image: url();
+
+  background: url("https://res.cloudinary.com/icelandtours/image/upload/v1667309946/northern_lights_above_glacier_lagoon_v2osk_unsplash_7d39ca647f.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
